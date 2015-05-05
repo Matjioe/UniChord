@@ -362,6 +362,7 @@ GameObject:
   - 114: {fileID: 236405622}
   - 114: {fileID: 236405621}
   - 114: {fileID: 236405620}
+  - 114: {fileID: 236405624}
   m_Layer: 0
   m_Name: Button 3
   m_TagString: Untagged
@@ -469,6 +470,36 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 236405618}
+--- !u!114 &236405624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 236405618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 236405620}
+          m_MethodName: SetCurrentScale
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &245327346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,7 +1118,19 @@ MonoBehaviour:
   - eventID: 0
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 710645365}
+          m_MethodName: SetCurrentScale
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &726940762
@@ -2197,7 +2240,19 @@ MonoBehaviour:
   - eventID: 0
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1642398068}
+          m_MethodName: SetCurrentScale
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &1647299214
@@ -2835,6 +2890,7 @@ GameObject:
   - 114: {fileID: 1911806907}
   - 114: {fileID: 1911806906}
   - 114: {fileID: 1911806909}
+  - 114: {fileID: 1911806910}
   m_Layer: 0
   m_Name: Button 2
   m_TagString: Untagged
@@ -2942,6 +2998,36 @@ MonoBehaviour:
   m_rootNoteNumber: 2
   m_musicalMode: 0
   m_strummer: {fileID: 205629926}
+--- !u!114 &1911806910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1911806904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1911806909}
+          m_MethodName: SetCurrentScale
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &2009370991
 GameObject:
   m_ObjectHideFlags: 0

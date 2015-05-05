@@ -17,15 +17,14 @@ public class ChordProperty : MonoBehaviour {
 	
 	void Update ()
 	{
-		
 	}
 	
 //	void OnClicked()
 //	{
-//		m_strummer.SetCurrentScale(m_rootNoteNumber, m_musicalMode);
+//		SetCurrentScale();
 //	}
 
-	void OnMouseEnter()
+	public void SetCurrentScale()
 	{
 		m_strummer.SetCurrentScale(m_rootNoteNumber, m_musicalMode);
 	}
