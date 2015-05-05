@@ -203,7 +203,7 @@ AudioMixerEffectController:
     m_GUID: 2c5cd6a7c262f4e67955a8b1e7f35251
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
-  m_Bypass: 0
+  m_Bypass: 1
 --- !u!244 &24477756
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -249,7 +249,7 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 6155b745d04044e9b826d6e1c6b593b0
   m_FloatValues:
-    26a0264072aae4da987747cff080b979: -79.5000076
+    26a0264072aae4da987747cff080b979: -20.7999992
     0d6a83226887e486eb116bed9301a319: .103
     882a2c326ece147dfb93684be61a9098: -7.4369359
     fa71d7f29a7a34e14894ce098ba158c6: 3.76999998
@@ -261,9 +261,11 @@ AudioMixerSnapshotController:
     09f16a5a80acf4d46888e6350a524990: -80
     61ff1e0b789f948449d9a9c51071513b: -21.4769058
     133895abfb012407fa4bad9b1e61bb61: 9.30000019
+    584b900cf864b42d9a6d7e07931786db: 1
     3ceeb94df5c874c49b8473fcdfa33c37: 4.69999981
     a38b6f4da45f74f8e99aab9f98a064af: -6507
     5c32f27db40194d7eb93789062749f12: 5851
     54be85cdc3ce54b698db6461a93d4cf6: -5.30000019
+    19a71f8ee1ade4495b5f31b791d82076: 0
     777525bee5386495795b34637be18f5f: .144999996
   m_TransitionOverrides: {}
